@@ -16,7 +16,7 @@ A subset of complex multi-omics data from the following paper: Ahadi, S., Zhou, 
 The data consists of a mixture of preprocessed files produced from the measurements of the transcripts, proteins, and metabolites of a cohort of 106 individuals in the study. The structure of the data files is as follows.
 1) _Subject.csv_ holds information on the 106 subjects of the study.
 2) Subjects performed multiple visits where their multi-omics samples were taken. _HMP_transcriptome_abundance.tsv_, _HMP_proteome_abundance.tsv_, _HMP_metabolome_abundance.tsv_ are tab-separated files that contain the measurements of transcriptomics, proteomics and metabolomics (peaks) of the different samples from the subjects.
-3) Peaks (columns in _HMP_metabolome_abundance.tsv_) are annotated with their metabolite and this information is stored in the _HMP_metabolome_annotation.csv _file linking a peak ID to its metabolite name, KEGG and HMDB ID, the chemical class and pathway where the metabolite could be found.
+3) Peaks (columns in _HMP_metabolome_abundance.tsv_) are annotated with their metabolite and this information is stored in the _HMP_metabolome_annotation.csv_ file linking a peak ID to its metabolite name, KEGG and HMDB ID, the chemical class and pathway where the metabolite could be found.
 
 Queries -   
   1. Retrieve SubjectID and Age of subjects whose age is greater than 70.
