@@ -14,7 +14,7 @@ Inputs (provided) -
 A subset of complex multi-omics data from the following paper: Ahadi, S., Zhou, W., Schüssler-Fiorenza Rose, S.M. et al. Personal aging markers and ageotypes revealed by deep longitudinal profiling. Nat Med 26, 83–90 (2020). https://doi.org/10.1038/s41591-019-0719-5
 
 The data consists of a mixture of preprocessed files produced from the measurements of the transcripts, proteins, and metabolites of a cohort of 106 individuals in the study. The structure of the data files is as follows.
-1) Subject.csv holds information on the 106 subjects of the study.
+1) _Subject.csv_ holds information on the 106 subjects of the study.
 2) Subjects performed multiple visits where their multi-omics samples were taken. _HMP_transcriptome_abundance.tsv_, _HMP_proteome_abundance.tsv_, _HMP_metabolome_abundance.tsv_ are tab-separated files that contain the measurements of transcriptomics, proteomics and metabolomics (peaks) of the different samples from the subjects.
 
 Queries -   
