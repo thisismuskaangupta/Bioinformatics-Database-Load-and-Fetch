@@ -30,7 +30,7 @@ Queries -
   6. Retrieve the minimum, maximum and average age of Subjects.
   7. Retrieve the list of pathways from the annotation data, and the count of how many times each pathway has been annotated. Display only pathways that have a count of at least 10. Order the results by the number of annotations in descending order.
   8. Retrieve the maximum abundance of the transcript 'A1BG' for subject 'ZOZOW1T' across all samples.
-  9. Retrieve the subjects’ age and BMI. If there are NULL values in the Age or BMI columns, that subject should be omitted from the results.
+  9. Retrieve the subjects’ age and BMI. If there are NULL values in the Age or BMI columns, that subject should be omitted from the results. At the same time, generate a scatter plot of age vs BMI using the query results and store the resulting scatter plot as a PNG image file called ‘age_bmi_scatterplot.png’ in the same directory as the program.
 
 Approach to the Assignment - 
 1) the data was understood and an entity-relationship diagram (ERD) was drawn to plan a database structure. (this is provided at the end of this README.)
